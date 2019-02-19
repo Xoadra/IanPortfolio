@@ -1,0 +1,15 @@
+
+
+
+
+{
+	"mime": [
+		{ "html": "text/html" },
+		{ "css": "text/css" },
+		{ "javascript": "text/javascript" },
+		{ "json": "application/json" },
+		{ "ico": "image/x-icon" }
+	]
+}
+
+

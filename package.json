@@ -1,0 +1,15 @@
+
+
+
+
+{
+	"name": "ian-peterson",
+	"version": "0.0.0",
+	"scripts": {
+		"build": "echo \"Error: no build specified\" && exit 1",
+		"start": "node server/server.js"
+	}
+}
+
+
+
