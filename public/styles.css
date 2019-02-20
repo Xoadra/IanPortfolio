@@ -3,19 +3,39 @@
 
 
 body {
-	text-align: center;
 	margin: 0;
 }
 
-main {
+section {
+	min-height: 500px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 75px 0;
+}
+
+h1 {
+	font-size: 6em;
+	margin: 0;
+}
+
+h2 {
 	font-size: 3em;
-	padding: 10% 0;
+	font-weight: normal;
+	margin: 10px 0 0;
+}
+
+h3 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
 }
 
 noscript {
 	display: block;
 	font-size: 2em;
 }
-
 
 
