@@ -6,7 +6,7 @@
 	"mime": [
 		{ "html": "text/html" },
 		{ "css": "text/css" },
-		{ "javascript": "text/javascript" },
+		{ "js": "text/javascript" },
 		{ "json": "application/json" },
 		{ "ico": "image/x-icon" }
 	]

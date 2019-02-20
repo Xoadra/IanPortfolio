@@ -20,8 +20,8 @@ var app = http.createServer( ( request, response ) => {
 	var identity = mime ? mime[ suffix ] : 'text/html'
 	var url = mime ? path.basename( request.url ) : 'index.html'
 	// Dynamically render the requested assets or html
-	if ( suffix != 'ico' ) {
-		var stream = fs.createReadStream( './public/' + url )
+	if ( suffix !== 'ico' ) {
+		var stream = fs.createReadStream( './build/' + url )
 		response.setHeader( 'Content-Type', identity )
 		stream.on( 'close', ( ) => response.end( ) )
 		// Omit file read stream errors for the time being
@@ -29,7 +29,7 @@ var app = http.createServer( ( request, response ) => {
 		stream.pipe( response )
 	}
 	// Alternative method for handling retrieved assets
-	/* fs.readFile( './public/' + url, ( error, data ) => {
+	/* fs.readFile( './build/' + url, ( error, data ) => {
 		response.setHeader( 'Content-Type', identity )
 		data ? response.write( data ) : null
 		response.end( )
