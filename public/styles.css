@@ -2,8 +2,18 @@
 
 
 
+@import url( 'https://fonts.googleapis.com/css?family=Exo+2' );
+
+
+
 body {
+	background: black;
+	font-family: 'Exo 2', 'Lucida Grande', sans-serif;
 	margin: 0;
+}
+
+main {
+	background: white;
 }
 
 section {
@@ -35,7 +45,13 @@ ul {
 
 noscript {
 	display: block;
-	font-size: 2em;
+	background: white;
+	font-size: 2.5em;
+	text-align: center;
+	box-sizing: border-box;
+	min-height: 100vh;
+	padding: 25vh 0 0;
 }
+
 
 

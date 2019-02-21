@@ -4,10 +4,12 @@
 
 import React from 'react'
 
+import './skills.css'
+
 
 
 export default ( ) => (
-	<section>
+	<section id="skills">
 		<h3> Skills </h3>
 	</section>
 )

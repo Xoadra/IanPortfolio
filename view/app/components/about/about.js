@@ -4,10 +4,12 @@
 
 import React from 'react'
 
+import './about.css'
+
 
 
 export default ( ) => (
-	<section>
+	<section id="about">
 		<h3> About </h3>
 	</section>
 )

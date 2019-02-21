@@ -15,7 +15,9 @@ header ul {
 
 header ul li {
 	display: inline-block;
-	font-size: 2em;
+	font-size: 1.75em;
+	text-transform: uppercase;
+	font-weight: bold;
 	margin: 0 5%;
 }
 
