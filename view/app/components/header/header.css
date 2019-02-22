@@ -3,9 +3,10 @@
 
 
 header {
+	background: #f0e6f9;
 	text-align: center;
 	box-sizing: border-box;
-	padding: 150px 0 75px;
+	padding: 150px 0 100px;
 }
 
 header ul {
@@ -20,6 +21,5 @@ header ul li {
 	font-weight: bold;
 	margin: 0 5%;
 }
-
 
 
