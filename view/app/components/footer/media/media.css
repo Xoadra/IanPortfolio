@@ -1,0 +1,35 @@
+
+
+
+
+#github {
+	background: url( '../../../../../public/img/github.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+#linkedin {
+	background: url( '../../../../../public/img/linkedin.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+#stackoverflow {
+	background: url( '../../../../../public/img/stackoverflow.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+#twitter {
+	background: url( '../../../../../public/img/twitter.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+#devto {
+	background: url( '../../../../../public/img/devto.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+#angellist {
+	background: url( '../../../../../public/img/angellist.svg' ) no-repeat 50%;
+	background-size: cover;
+}
+
+

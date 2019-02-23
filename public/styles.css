@@ -7,7 +7,7 @@
 
 
 body {
-	/* background: black; */
+	background: #101010;
 	font-family: 'Exo 2', 'Lucida Grande', sans-serif;
 	margin: 0;
 }
@@ -40,6 +40,10 @@ h3 {
 }
 
 ul {
+	margin: 0;
+}
+
+p {
 	margin: 0;
 }
 
