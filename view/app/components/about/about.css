@@ -6,4 +6,20 @@
 	background: inherit;
 }
 
+#about hr {
+	background: #f0f0f0;
+}
+
+#about h5 {
+	margin: 0 0 20px;
+}
+
+#about p {
+	font-size: 1.25em;
+	text-align: left;
+	line-height: 30px;
+	text-indent: 4em;
+	margin: 0 10%;
+}
+
 

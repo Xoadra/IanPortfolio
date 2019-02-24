@@ -6,4 +6,46 @@
 	background: #6c9af9;
 }
 
+#skills hr {
+	background: #5a85ef;
+}
+
+#skills h4 {
+	margin: 0 0 25px;
+}
+
+.lang {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin: 0 0 40px;
+}
+
+.lang h6 {
+	margin: 0 0 15px;
+}
+
+.lang p {
+	margin: 0 0 25px;
+}
+
+.tech {
+	font-size: 1.25em;
+	font-weight: bold;
+}
+
+#skills ul {
+	padding: 0;
+	margin: 10px 0 0;
+}
+
+#skills ul li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+#skills h5 {
+	margin: 0 0 10px;
+}
+
 

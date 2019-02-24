@@ -6,4 +6,24 @@
 	background: #f9f05b;
 }
 
+#portfolio hr {
+	background: #fbc84d;
+	margin: 10px auto 75px;
+}
+
+#portfolio h4 {
+	color: #7b4d02;
+	margin: 0 0 40px;
+}
+
+#portfolio p {
+	display: inline-block;
+	color: #c79e3a;
+	font-size: 1.5em;
+}
+
+#portfolio a {
+	color: #f16d0a;
+}
+
 
