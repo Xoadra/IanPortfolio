@@ -23,9 +23,11 @@ export default ( ) => {
 				<Media name="Devto" href="dev.to/xoadra"/>
 				<Media name="AngelList" href="angel.co/ianjpeterson"/>
 			</ul>
-			<span> { name } &#169; { year } </span>
+			{ /* <span> Responsibly made with React and Node.js. </span> */ }
+			<span id="copyright"> { name } &#169; { year } </span>
 		</footer>
 	)
 }
+
 
 

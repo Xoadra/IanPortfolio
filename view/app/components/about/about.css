@@ -15,11 +15,15 @@
 }
 
 #about p {
-	font-size: 1.25em;
+	font-size: 1.125em;
 	text-align: left;
 	line-height: 30px;
-	text-indent: 4em;
-	margin: 0 10%;
+	text-indent: 3em;
+	margin: 0 10% 1em;
+}
+
+#about a {
+	color: #5b82fb;
 }
 
 

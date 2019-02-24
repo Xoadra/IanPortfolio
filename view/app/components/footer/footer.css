@@ -40,12 +40,14 @@ footer ul li {
 
 footer span {
 	position: absolute;
-	color: #3d3e42;
-	font-weight: bold;
 	left: 0;
 	right: 0;
-	bottom: 5em;
 }
 
+#copyright {
+	color: #3d3e42;
+	font-weight: bold;
+	bottom: 5em;
+}
 
 
