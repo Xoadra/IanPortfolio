@@ -4,6 +4,9 @@
 
 const HtmlWebpackPlugin = require( 'html-webpack-plugin' )
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' )
+const OptimizeCSSPlugin = require( 'optimize-css-assets-webpack-plugin' )
+const BabelMinifyPlugin = require( 'babel-minify-webpack-plugin' )
+const UglifyJsPlugin = require( 'uglifyjs-webpack-plugin' )
 const CleanWebpackPlugin = require( 'clean-webpack-plugin' )
 
 
@@ -27,7 +30,13 @@ module.exports = ( ) => {
 				inject: false,
 				template: 'public/index.html',
 				minify: {
-					removeComments: true
+					removeComments: true,
+					...dev ? {  } : {
+						collapseWhitespace: true,
+						removeRedundantAttributes: true,
+						removeScriptTypeAttributes: true,
+						removeStyleLinkTypeAttributes: true
+					}
 				}
 			} ),
 			new MiniCssExtractPlugin( {
@@ -35,7 +44,13 @@ module.exports = ( ) => {
 				chunkFilename: '[id].css'
 			} ),
 			new CleanWebpackPlugin( 'build' )
-		],
+		].concat( dev ? [ ] : [
+			new BabelMinifyPlugin( {
+				mangle: {
+					topLevel: true
+				}
+			} )
+		] ),
 		devtool: dev ? 'eval-source-map' : false,
 		stats: {
 			cachedAssets: false,
@@ -46,6 +61,23 @@ module.exports = ( ) => {
 		watch: dev ? true : false,
 		watchOptions: {
 			ignored: /node_modules/
+		},
+		optimization: {
+			...dev ? {  } : {
+				concatenateModules: true,
+				minimizer: [
+					new UglifyJsPlugin( {
+						cache: true,
+						parallel: true,
+						uglifyOptions: {
+							output: {
+								comments: false,
+							}
+						}
+					} ),
+					new OptimizeCSSPlugin( {  } )
+				]
+			}
 		},
 		output: {
 			filename: '[name].js',
