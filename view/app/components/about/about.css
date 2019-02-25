@@ -8,6 +8,7 @@
 
 #about hr {
 	background: #f0f0f0;
+	margin: 10px auto 30px;
 }
 
 #about h5 {
@@ -15,7 +16,7 @@
 }
 
 #about p {
-	font-size: 1.125em;
+	font-size: 1.25em;
 	text-align: left;
 	line-height: 30px;
 	text-indent: 3em;
@@ -25,5 +26,6 @@
 #about a {
 	color: #5b82fb;
 }
+
 
 
