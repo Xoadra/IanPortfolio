@@ -10,7 +10,7 @@ import './portfolio.css'
 
 export default ( ) => (
 	<section id="portfolio">
-		<div className="content">
+		<div className="volume">
 			<h3> Portfolio </h3>
 			<hr/>
 			<h4> Coming soon! </h4>

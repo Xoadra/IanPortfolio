@@ -10,7 +10,7 @@ import './about.css'
 
 export default ( ) => (
 	<section id="about">
-		<div className="content">
+		<div className="volume">
 			<h3> About Me </h3>
 			<hr/>
 			<h5> Wisconsin raised.  Seattle based. </h5>

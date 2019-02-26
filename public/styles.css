@@ -34,9 +34,10 @@ section {
 	padding: 75px 0;
 }
 
-.content {
+.volume {
 	height: 100%;
-	margin: 0 10%;
+	max-width: 1000px;
+	margin: 0 auto;
 }
 
 h3 {
@@ -86,6 +87,5 @@ noscript {
 	min-height: 100vh;
 	padding: 25vh 0 0;
 }
-
 
 

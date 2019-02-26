@@ -15,7 +15,7 @@ export default ( ) => {
 	const csharp = [ 'ASP.NET Core', 'Unity Engine' ]
 	return (
 		<section id="skills">
-			<div className="content">
+			<div className="volume">
 				<h3> Skills </h3>
 				<hr/>
 				<h4> The Big Three </h4>
