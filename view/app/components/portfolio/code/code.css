@@ -1,0 +1,55 @@
+
+
+
+
+.code {
+	position: relative;
+	box-sizing: border-box;
+	min-height: 15em;
+	flex-basis: 20em;
+	padding: 0 15px 15px;
+	margin: 0 0 40px;
+}
+
+.code h6 {
+	color: #8e560d;
+	margin: 0 0 20px;
+}
+
+.code p {
+	color: #9a7f3e;
+	text-align: left;
+	line-height: 1.25em;
+	text-indent: 2em;
+	margin: 0 0 50px;
+}
+
+.portal {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.code button {
+	background: #f9cf49;
+	color: #d06b0f;
+	border: 0;
+	border-radius: 25px;
+	font-size: 1em;
+	font-variant: all-small-caps;
+	/* height: 35px;
+	width: 70px;
+	margin: 0 0.25em; */
+	height: 30px;
+	width: 90px;
+	margin: 0 0.5em;
+}
+
+.code button[ disabled ] {
+	background: #e0c05a;
+	color: #9c7b5d;
+	cursor: default;
+}
+
+

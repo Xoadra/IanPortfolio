@@ -4,6 +4,7 @@
 
 import React from 'react'
 
+import Code from './code/code'
 import './portfolio.css'
 
 
@@ -13,13 +14,16 @@ export default ( ) => (
 		<div className="volume">
 			<h3> Portfolio </h3>
 			<hr/>
-			<h4> Coming soon! </h4>
-			<p>
-				For now, feel free to take a look at my work 
-				on <a href="https://github.com/Xoadra"> GitHub! </a>
-			</p>
+			<div className="exhibit">
+				<Code name="PfitzerPhotography"/>
+				<Code name="MarketMeals"/>
+				<Code name="Xambda"/>
+				<Code name="SpaCore"/>
+				<Code name="IanPortfolio"/>
+			</div>
 		</div>
 	</section>
 )
+
 
 

@@ -53,6 +53,7 @@ hr {
 	border-bottom-right-radius: 50%;
 	height: 5px;
 	width: 25em;
+	margin: 10px auto 40px;
 }
 
 h4 {
@@ -76,6 +77,11 @@ ul {
 
 p {
 	margin: 0;
+}
+
+button {
+	cursor: pointer;
+	outline: none;
 }
 
 noscript {

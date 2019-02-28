@@ -8,22 +8,12 @@
 
 #portfolio hr {
 	background: #fbc84d;
-	margin: 10px auto 125px;
 }
 
-#portfolio h4 {
-	color: #7b4d02;
-	margin: 0 0 50px;
-}
-
-#portfolio p {
-	display: inline-block;
-	color: #c79e3a;
-	font-size: 1.5em;
-}
-
-#portfolio a {
-	color: #f16d0a;
+.exhibit {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 
