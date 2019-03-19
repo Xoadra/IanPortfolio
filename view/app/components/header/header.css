@@ -3,23 +3,43 @@
 
 
 header {
-	background: #f0e6f9;
+	position: relative;
+	background: black;
+	color: white;
 	text-align: center;
 	box-sizing: border-box;
-	padding: 150px 0 100px;
+	height: 700px;
+}
+
+#space {
+	position: absolute;
+	z-index: 0;
+	background: url( '../../../../public/img/space.jpg' ) no-repeat center bottom 5em fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+header :not( #space ) {
+	position: relative;
+	z-index: 1;
+	top: 30%;
 }
 
 header ul {
 	padding: 0;
-	margin: 75px 0 0;
+	margin: 100px 0 0;
 }
 
 header ul li {
 	display: inline-block;
-	font-size: 1.75em;
+	color: #fd4e74;
+	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 0 5%;
+	margin: 0 6%;
+	text-shadow: 0 0 2.5px;
 }
+
 
 

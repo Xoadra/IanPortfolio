@@ -10,6 +10,7 @@ import './header.css'
 
 export default ( ) => (
 	<header>
+		<div id="space"/>
 		<h1> Ian Peterson </h1>
 		<h2> Full-Stack Software Developer </h2>
 		<ul>
@@ -19,5 +20,6 @@ export default ( ) => (
 		</ul>
 	</header>
 )
+
 
 

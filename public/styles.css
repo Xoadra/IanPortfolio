@@ -17,14 +17,18 @@ main {
 }
 
 h1 {
+	color: #6fd0f9;
 	font-size: 6em;
 	margin: 0;
+	text-shadow: 0 0 10px;
 }
 
 h2 {
+	color: #f3f0f7;
 	font-size: 3em;
 	font-weight: normal;
 	margin: 10px 0 0;
+	text-shadow: 0 0 5px;
 }
 
 section {
