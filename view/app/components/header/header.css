@@ -11,16 +11,21 @@ header {
 	height: 700px;
 }
 
-#space {
-	position: absolute;
+header::after {
+	position: fixed;
 	z-index: 0;
-	background: url( '../../../../public/img/space.jpg' ) no-repeat center bottom 5em fixed;
+	content: "";
+	background: url( '../../../../public/img/space.jpg' ) no-repeat center bottom 5em;
 	background-size: cover;
-	height: 100%;
-	width: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 900px;
+	min-height: 100%;
+	width: 100vw;
 }
 
-header :not( #space ) {
+header > * {
 	position: relative;
 	z-index: 1;
 	top: 30%;
@@ -40,6 +45,5 @@ header ul li {
 	margin: 0 6%;
 	text-shadow: 0 0 2.5px;
 }
-
 
 

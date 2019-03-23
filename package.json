@@ -4,7 +4,7 @@
 
 {
 	"name": "ian-peterson",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"scripts": {
 		"node": "node server/server.js",
 		"build": "NODE_ENV=production webpack --progress",
