@@ -41,3 +41,15 @@
 }
 
 
+
+@media ( max-width: 425px ) {
+	#skills ul {
+		margin: 10px 0 25px;
+	}
+	#skills ul li {
+		margin: 0 4%;
+	}
+}
+
+
+

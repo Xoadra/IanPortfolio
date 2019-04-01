@@ -12,7 +12,7 @@
 }
 
 #about h5 {
-	margin: 0 0 20px;
+	margin: 0 4% 20px;
 }
 
 #about p {
@@ -25,6 +25,16 @@
 
 #about a {
 	color: #5b82fb;
+}
+
+
+
+@media ( max-width: 425px ) {
+	#about p {
+		font-size: 1em;
+		line-height: 25px;
+		margin: 0 5% 1em;
+	}
 }
 
 

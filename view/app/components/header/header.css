@@ -47,3 +47,25 @@ header ul li {
 }
 
 
+
+@media ( max-width: 768px ) {
+	header ul li {
+		font-size: 1.75em;
+	}
+}
+
+@media ( max-width: 425px ) {
+	header ul li {
+		font-size: 1.5em;
+		margin: 0 7.5%;
+	}
+}
+
+@media ( max-width: 320px ) {
+	header ul li {
+		margin: 0 6%;
+	}
+}
+
+
+

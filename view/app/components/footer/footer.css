@@ -51,3 +51,15 @@ footer span {
 
 
 
+@media ( max-width: 425px ) {
+	footer button {
+		padding: 0.75em 2em;
+	}
+	footer ul li {
+		height: 2em;
+		width: 2em;
+	}
+}
+
+
+

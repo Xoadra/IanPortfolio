@@ -4,7 +4,7 @@
 
 {
 	"name": "ian-peterson",
-	"version": "1.2.1",
+	"version": "1.2.2",
 	"scripts": {
 		"node": "node server/server.js",
 		"build": "NODE_ENV=production webpack --progress",
@@ -12,12 +12,12 @@
 		"start": "concurrently \"npm:watch\" \"npm:node\""
 	},
 	"dependencies": {
-		"react": "^16.8.4",
-		"react-dom": "^16.8.4"
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
 	},
 	"devDependencies": {
 		"@babel/core": "^7.4.0",
-		"@babel/preset-env": "^7.4.0",
+		"@babel/preset-env": "^7.4.2",
 		"@babel/preset-react": "^7.0.0",
 		"babel-loader": "^8.0.5",
 		"babel-minify-webpack-plugin": "^0.3.1",
