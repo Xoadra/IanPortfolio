@@ -11,7 +11,10 @@ import './header.css'
 export default ( ) => (
 	<header>
 		<h1> Ian Peterson </h1>
-		<h2> Full-Stack Software Developer </h2>
+		<h2>
+			<span> Full-Stack </span> &nbsp;
+			<span> Software Developer </span>
+		</h2>
 		<ul>
 			<li> Web </li>
 			<li> Code </li>
@@ -19,5 +22,6 @@ export default ( ) => (
 		</ul>
 	</header>
 )
+
 
 

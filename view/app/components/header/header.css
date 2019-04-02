@@ -42,28 +42,64 @@ header ul li {
 	font-size: 2em;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 0 6%;
+	margin: 0 2.5em;
 	text-shadow: 0 0 2.5px;
 }
 
 
 
 @media ( max-width: 768px ) {
+	header {
+		height: 500px;
+	}
+	header::after {
+		background-position: right 55% bottom 10em;
+		height: 750px;
+	}
+	header > * {
+		transform: scale( 0.9 );
+	}
+	header ul {
+		margin: 75px -5% 0;
+	}
 	header ul li {
 		font-size: 1.75em;
+		margin: 0 8%;
 	}
 }
 
 @media ( max-width: 425px ) {
+	header {
+		height: 425px;
+	}
+	header::after {
+		background-position: right 55% bottom 10em;
+		height: 675px;
+	}
+	header > * {
+		top: 32.5%;
+		transform: scale( 0.8 );
+	}
+	header ul {
+		margin: 50px -12.5% 0;
+	}
 	header ul li {
 		font-size: 1.5em;
-		margin: 0 7.5%;
 	}
 }
 
-@media ( max-width: 320px ) {
-	header ul li {
-		margin: 0 6%;
+@media ( max-width: 375px ) {
+	header > * {
+		transform: scale( 0.75 );
+	}
+}
+
+@media ( max-width: 280px ) {
+	header > * {
+		top: 27.5%;
+	}
+	header ul {
+		margin: 40px -15% 0;
 	}
 }
 
