@@ -46,7 +46,7 @@
 	margin: 0 0.5em;
 }
 
-.code button[ disabled ] {
+.code button[disabled] {
 	background: #e0c05a;
 	color: #9c7b5d;
 	cursor: default;

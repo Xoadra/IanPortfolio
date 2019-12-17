@@ -2,16 +2,16 @@
 
 
 
-const HtmlWebpackPlugin = require( 'html-webpack-plugin' )
-const MiniCssExtractPlugin = require( 'mini-css-extract-plugin' )
-const OptimizeCSSPlugin = require( 'optimize-css-assets-webpack-plugin' )
-const BabelMinifyPlugin = require( 'babel-minify-webpack-plugin' )
-const UglifyJsPlugin = require( 'uglifyjs-webpack-plugin' )
-const CleanWebpackPlugin = require( 'clean-webpack-plugin' )
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
+const BabelMinifyPlugin = require('babel-minify-webpack-plugin')
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
+const CleanWebpackPlugin = require('clean-webpack-plugin')
 
 
 
-module.exports = ( ) => {
+module.exports = () => {
 	const dev = process.env.NODE_ENV === 'development' ? true : false
 	return {
 		mode: process.env.NODE_ENV,
@@ -21,36 +21,36 @@ module.exports = ( ) => {
 		module: {
 			rules: [
 				{ test: /\.(jpg|svg)$/, use: 'url-loader' },
-				{ test: /\.css$/, use: [ MiniCssExtractPlugin.loader, 'css-loader' ] },
+				{ test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader'] },
 				{ test: /\.js$/, exclude: /node_modules/, use: 'babel-loader' }
 			]
 		},
 		plugins: [
-			new HtmlWebpackPlugin( {
+			new HtmlWebpackPlugin({
 				inject: false,
 				template: 'public/index.html',
 				minify: {
 					removeComments: true,
-					...dev ? {  } : {
+					...dev ? {} : {
 						collapseWhitespace: true,
 						removeRedundantAttributes: true,
 						removeScriptTypeAttributes: true,
 						removeStyleLinkTypeAttributes: true
 					}
 				}
-			} ),
-			new MiniCssExtractPlugin( {
+			}),
+			new MiniCssExtractPlugin({
 				filename: 'styles.css',
 				chunkFilename: '[id].css'
-			} ),
-			new CleanWebpackPlugin( 'build' )
-		].concat( dev ? [ ] : [
-			new BabelMinifyPlugin( {
+			}),
+			new CleanWebpackPlugin('build')
+		].concat(dev ? [] : [
+			new BabelMinifyPlugin({
 				mangle: {
 					topLevel: true
 				}
-			} )
-		] ),
+			})
+		]),
 		devtool: dev ? 'eval-source-map' : false,
 		stats: {
 			cachedAssets: false,
@@ -63,10 +63,10 @@ module.exports = ( ) => {
 			ignored: /node_modules/
 		},
 		optimization: {
-			...dev ? {  } : {
+			...dev ? {} : {
 				concatenateModules: true,
 				minimizer: [
-					new UglifyJsPlugin( {
+					new UglifyJsPlugin({
 						cache: true,
 						parallel: true,
 						uglifyOptions: {
@@ -74,8 +74,8 @@ module.exports = ( ) => {
 								comments: false,
 							}
 						}
-					} ),
-					new OptimizeCSSPlugin( {  } )
+					}),
+					new OptimizeCSSPlugin({})
 				]
 			}
 		},

@@ -8,17 +8,17 @@ import './header.css'
 
 
 
-export default ( ) => (
+export default () => (
 	<header>
-		<h1> Ian Peterson </h1>
+		<h1>Ian Peterson</h1>
 		<h2>
-			<span> Full-Stack </span> &nbsp;
-			<span> Software Developer </span>
+			<span>Full-Stack</span> &nbsp;
+			<span>Software Developer</span>
 		</h2>
 		<ul>
-			<li> Web </li>
-			<li> Code </li>
-			<li> Data </li>
+			<li>Web</li>
+			<li>Code</li>
+			<li>Data</li>
 		</ul>
 	</header>
 )

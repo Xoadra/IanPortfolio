@@ -34,17 +34,17 @@
 }
 
 #python {
-	background: url( '../../../../../public/img/python.svg' ) no-repeat 50%;
+	background: url('../../../../../public/img/python.svg') no-repeat 50%;
 	background-size: cover;
 }
 
 #javascript {
-	background: url( '../../../../../public/img/javascript.svg' ) no-repeat 50%;
+	background: url('../../../../../public/img/javascript.svg') no-repeat 50%;
 	background-size: cover;
 }
 
 #csharp {
-	background: url( '../../../../../public/img/csharp.svg' ) no-repeat 50%;
+	background: url('../../../../../public/img/csharp.svg') no-repeat 50%;
 	background-size: cover;
 }
 
@@ -56,11 +56,11 @@
 
 
 
-@media ( max-width: 425px ) {
+@media (max-width: 425px) {
 	.lang {
 		flex-basis: 50%;
 		margin: 25px 10%;
-		transform: scale( 1.125, 1.125 );
+		transform: scale(1.125, 1.125);
 	}
 }
 

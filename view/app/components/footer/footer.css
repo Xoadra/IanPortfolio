@@ -30,8 +30,8 @@ footer ul li {
 	display: inline-block;
 	background: #1f1f1f;
 	/* Colorizes black images and content */
-	/* filter: invert( 1 ) brightness( 50% ) sepia( 1 ) saturate( 10 ) hue-rotate( 100deg ); */
-	filter: invert( 1 );
+	/* filter: invert(1) brightness(50%) sepia(1) saturate(10) hue-rotate(100deg); */
+	filter: invert(1);
 	height: 2.5em;
 	width: 2.5em;
 	margin: 0 0.5em;
@@ -51,7 +51,7 @@ footer span {
 
 
 
-@media ( max-width: 425px ) {
+@media (max-width: 425px) {
 	footer button {
 		padding: 0.75em 2em;
 	}

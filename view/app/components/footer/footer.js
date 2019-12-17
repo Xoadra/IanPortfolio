@@ -9,12 +9,12 @@ import './footer.css'
 
 
 
-export default ( ) => {
+export default () => {
 	const name = 'Ian Peterson'
-	const year = new Date( ).getFullYear( )
+	const year = new Date().getFullYear()
 	return (
 		<footer>
-			<a href="mailto:xijp77@gmail.com"><button> Reach Me </button></a>
+			<a href="mailto:xijp77@gmail.com"><button>Reach Me</button></a>
 			<ul>
 				<Media name="GitHub" href="github.com/Xoadra"/>
 				<Media name="LinkedIn" href="www.linkedin.com/in/ianjpeterson"/>
@@ -23,8 +23,8 @@ export default ( ) => {
 				<Media name="Devto" href="dev.to/xoadra"/>
 				<Media name="AngelList" href="angel.co/ianjpeterson"/>
 			</ul>
-			{ /* <span> Responsibly made with React and Node.js. </span> */ }
-			<span id="copyright"> { name } &#169; { year } </span>
+			{ /* <span>Responsibly made with React and Node.js.</span> */ }
+			<span id="copyright">{name} &#169; {year}</span>
 		</footer>
 	)
 }

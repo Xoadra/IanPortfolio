@@ -2,7 +2,7 @@
 
 
 
-@import url( 'https://fonts.googleapis.com/css?family=Exo+2' );
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
 
 
 
@@ -108,7 +108,7 @@ noscript {
 
 
 
-@media ( max-width: 768px ) {
+@media (max-width: 768px) {
 	h1 {
 		font-size: 4.5em;
 		margin: 0 -5%;
@@ -131,7 +131,7 @@ noscript {
 	}
 }
 
-@media ( max-width: 425px ) {
+@media (max-width: 425px) {
 	h1 {
 		font-size: 4em;
 		margin: 0 -12.5%;
@@ -151,7 +151,7 @@ noscript {
 	}
 }
 
-@media ( max-width: 375px ) {
+@media (max-width: 375px) {
 	h1 {
 		margin: 0 -7.5%;
 	}
@@ -160,7 +160,7 @@ noscript {
 	}
 }
 
-@media ( max-width: 320px ) {
+@media (max-width: 320px) {
 	h1 {
 		margin: 0 -15%;
 	}
@@ -169,7 +169,7 @@ noscript {
 	}
 }
 
-@media ( max-width: 280px ) {
+@media (max-width: 280px) {
 	h1 {
 		line-height: 0.8em;
 	}

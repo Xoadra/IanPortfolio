@@ -12,7 +12,7 @@ import Footer from './components/footer/footer'
 
 
 
-export default ( ) => (
+export default () => (
 	<div>
 		<Header/>
 		<About/>

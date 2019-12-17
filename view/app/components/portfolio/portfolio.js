@@ -9,10 +9,10 @@ import './portfolio.css'
 
 
 
-export default ( ) => (
+export default () => (
 	<section id="portfolio">
 		<div className="volume">
-			<h3> Portfolio </h3>
+			<h3>Portfolio</h3>
 			<hr/>
 			<div className="exhibit">
 				<Code name="PfitzerPhotography"/>

@@ -10,6 +10,6 @@ import '../public/styles.css'
 
 
 
-ReactDOM.render( <App/>, document.querySelector( 'main' ) )
+ReactDOM.render(<App/>, document.querySelector('main'))
 
 
