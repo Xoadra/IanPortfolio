@@ -1,6 +1,6 @@
 {
 	"name": "ian-peterson",
-	"version": "1.2.3",
+	"version": "1.2.4",
 	"scripts": {
 		"node": "node server/server.js",
 		"build": "NODE_ENV=production webpack --progress",
@@ -8,24 +8,24 @@
 		"start": "concurrently \"npm:watch\" \"npm:node\""
 	},
 	"dependencies": {
-		"react": "^16.8.6",
-		"react-dom": "^16.8.6"
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.4.0",
-		"@babel/preset-env": "^7.4.2",
-		"@babel/preset-react": "^7.0.0",
-		"babel-loader": "^8.0.5",
+		"@babel/core": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
+		"@babel/preset-react": "^7.7.4",
+		"babel-loader": "^8.0.6",
 		"babel-minify-webpack-plugin": "^0.3.1",
-		"clean-webpack-plugin": "^1.0.1",
-		"concurrently": "^4.1.0",
-		"css-loader": "^2.1.1",
+		"clean-webpack-plugin": "^3.0.0",
+		"concurrently": "^5.0.2",
+		"css-loader": "^3.4.0",
 		"html-webpack-plugin": "^3.2.0",
-		"mini-css-extract-plugin": "^0.5.0",
-		"optimize-css-assets-webpack-plugin": "^5.0.1",
-		"uglifyjs-webpack-plugin": "^2.1.2",
-		"url-loader": "^1.1.2",
-		"webpack": "^4.29.6",
-		"webpack-cli": "^3.3.0"
+		"mini-css-extract-plugin": "^0.8.2",
+		"optimize-css-assets-webpack-plugin": "^5.0.3",
+		"uglifyjs-webpack-plugin": "^2.2.0",
+		"url-loader": "^3.0.0",
+		"webpack": "^4.41.4",
+		"webpack-cli": "^3.3.10"
 	}
 }
