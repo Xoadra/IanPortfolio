@@ -1,11 +1,11 @@
 {
 	"name": "ian-peterson",
-	"version": "1.2.4",
+	"version": "1.2.5",
 	"scripts": {
 		"node": "node server/server.js",
 		"build": "NODE_ENV=production webpack --progress",
 		"watch": "NODE_ENV=development webpack --progress",
-		"start": "concurrently \"npm:watch\" \"npm:node\""
+		"start": "concurrently -p none \"npm:watch\" \"npm:node\""
 	},
 	"dependencies": {
 		"react": "^16.12.0",

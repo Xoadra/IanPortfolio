@@ -7,7 +7,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const BabelMinifyPlugin = require('babel-minify-webpack-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-const CleanWebpackPlugin = require('clean-webpack-plugin')
+const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 
 
 
@@ -43,7 +43,7 @@ module.exports = () => {
 				filename: 'styles.css',
 				chunkFilename: '[id].css'
 			}),
-			new CleanWebpackPlugin('build')
+			new CleanWebpackPlugin()
 		].concat(dev ? [] : [
 			new BabelMinifyPlugin({
 				mangle: {
